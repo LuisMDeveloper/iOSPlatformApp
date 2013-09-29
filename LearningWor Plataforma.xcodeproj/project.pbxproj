@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B0C08D617F3D0220096EA56 /* MensajesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0C08D517F3D0220096EA56 /* MensajesViewController.m */; };
+		3B28412817F3C62500A838BF /* IndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B28412717F3C62500A838BF /* IndexViewController.m */; };
+		3B6A021217F249EA00A970D6 /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A01FA17F249EA00A970D6 /* NSObject+SBJson.m */; };
+		3B6A021317F249EA00A970D6 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A01FD17F249EA00A970D6 /* SBJsonParser.m */; };
+		3B6A021417F249EA00A970D6 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A01FF17F249EA00A970D6 /* SBJsonStreamParser.m */; };
+		3B6A021517F249EA00A970D6 /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A020117F249EA00A970D6 /* SBJsonStreamParserAccumulator.m */; };
+		3B6A021617F249EA00A970D6 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A020317F249EA00A970D6 /* SBJsonStreamParserAdapter.m */; };
+		3B6A021717F249EA00A970D6 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A020517F249EA00A970D6 /* SBJsonStreamParserState.m */; };
+		3B6A021817F249EA00A970D6 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A020717F249EA00A970D6 /* SBJsonStreamWriter.m */; };
+		3B6A021917F249EA00A970D6 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A020917F249EA00A970D6 /* SBJsonStreamWriterAccumulator.m */; };
+		3B6A021A17F249EA00A970D6 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A020B17F249EA00A970D6 /* SBJsonStreamWriterState.m */; };
+		3B6A021B17F249EA00A970D6 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A020D17F249EA00A970D6 /* SBJsonTokeniser.m */; };
+		3B6A021C17F249EA00A970D6 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A020F17F249EA00A970D6 /* SBJsonUTF8Stream.m */; };
+		3B6A021D17F249EA00A970D6 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A021117F249EA00A970D6 /* SBJsonWriter.m */; };
+		3B72F61C17F4ED330022075E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B72F61B17F4ED330022075E /* DetailViewController.m */; };
+		3B9CBEF417E921340039E0DE /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B9CBEF317E921340039E0DE /* libsqlite3.0.dylib */; };
+		3B9CBEF617E928DB0039E0DE /* Lw.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B9CBEF517E928DB0039E0DE /* Lw.png */; };
+		3BAB7C8B17D691DA0049AE55 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAB7C8A17D691DA0049AE55 /* UIKit.framework */; };
+		3BAB7C8D17D691DA0049AE55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAB7C8C17D691DA0049AE55 /* Foundation.framework */; };
+		3BAB7C8F17D691DA0049AE55 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAB7C8E17D691DA0049AE55 /* CoreGraphics.framework */; };
+		3BAB7C9517D691DA0049AE55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BAB7C9317D691DA0049AE55 /* InfoPlist.strings */; };
+		3BAB7C9717D691DA0049AE55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAB7C9617D691DA0049AE55 /* main.m */; };
+		3BAB7C9B17D691DA0049AE55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAB7C9A17D691DA0049AE55 /* AppDelegate.m */; };
+		3BAB7C9D17D691DA0049AE55 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BAB7C9C17D691DA0049AE55 /* Default.png */; };
+		3BAB7C9F17D691DA0049AE55 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BAB7C9E17D691DA0049AE55 /* Default@2x.png */; };
+		3BAB7CA117D691DA0049AE55 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BAB7CA017D691DA0049AE55 /* Default-568h@2x.png */; };
+		3BAB7CA417D691DA0049AE55 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BAB7CA217D691DA0049AE55 /* MainStoryboard.storyboard */; };
+		3BAB7CA717D691DA0049AE55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAB7CA617D691DA0049AE55 /* ViewController.m */; };
+		3BAB7CAF17D691DA0049AE55 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAB7CAE17D691DA0049AE55 /* SenTestingKit.framework */; };
+		3BAB7CB017D691DA0049AE55 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAB7C8A17D691DA0049AE55 /* UIKit.framework */; };
+		3BAB7CB117D691DA0049AE55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAB7C8C17D691DA0049AE55 /* Foundation.framework */; };
+		3BAB7CB917D691DA0049AE55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BAB7CB717D691DA0049AE55 /* InfoPlist.strings */; };
+		3BAB7CBC17D691DA0049AE55 /* LearningWor_PlataformaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAB7CBB17D691DA0049AE55 /* LearningWor_PlataformaTests.m */; };
+		3BB8E9DE17F7721600711E99 /* TareaDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB8E9DD17F7721500711E99 /* TareaDetailViewController.m */; };
+		3BB8E9E117F7838900711E99 /* ClaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB8E9E017F7838900711E99 /* ClaseViewController.m */; };
+		3BB8E9E417F795D500711E99 /* ClaseDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB8E9E317F795D500711E99 /* ClaseDetailViewController.m */; };
+		3BDC404617F6691400FFCFC6 /* TareaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDC404517F6691400FFCFC6 /* TareaViewController.m */; };
+		3BDC404917F676D800FFCFC6 /* SelecCursoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDC404817F676D800FFCFC6 /* SelecCursoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BAB7CB217D691DA0049AE55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BAB7C7F17D691DA0049AE55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BAB7C8617D691DA0049AE55;
+			remoteInfo = "LearningWor Plataforma";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B0C08D417F3D0220096EA56 /* MensajesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MensajesViewController.h; sourceTree = "<group>"; };
+		3B0C08D517F3D0220096EA56 /* MensajesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MensajesViewController.m; sourceTree = "<group>"; };
+		3B28412617F3C62500A838BF /* IndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexViewController.h; sourceTree = "<group>"; };
+		3B28412717F3C62500A838BF /* IndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexViewController.m; sourceTree = "<group>"; };
+		3B6A01F917F249EA00A970D6 /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
+		3B6A01FA17F249EA00A970D6 /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
+		3B6A01FB17F249EA00A970D6 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		3B6A01FC17F249EA00A970D6 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		3B6A01FD17F249EA00A970D6 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		3B6A01FE17F249EA00A970D6 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		3B6A01FF17F249EA00A970D6 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		3B6A020017F249EA00A970D6 /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		3B6A020117F249EA00A970D6 /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		3B6A020217F249EA00A970D6 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		3B6A020317F249EA00A970D6 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		3B6A020417F249EA00A970D6 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		3B6A020517F249EA00A970D6 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		3B6A020617F249EA00A970D6 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		3B6A020717F249EA00A970D6 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		3B6A020817F249EA00A970D6 /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		3B6A020917F249EA00A970D6 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		3B6A020A17F249EA00A970D6 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		3B6A020B17F249EA00A970D6 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		3B6A020C17F249EA00A970D6 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		3B6A020D17F249EA00A970D6 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		3B6A020E17F249EA00A970D6 /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		3B6A020F17F249EA00A970D6 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		3B6A021017F249EA00A970D6 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		3B6A021117F249EA00A970D6 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		3B72F61A17F4ED330022075E /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		3B72F61B17F4ED330022075E /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		3B72F61D17F526860022075E /* lwLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lwLogo.png; path = ../lwLogo.png; sourceTree = "<group>"; };
+		3B72F61E17F527CE0022075E /* lwLogo7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lwLogo7.png; sourceTree = "<group>"; };
+		3B9CBEF317E921340039E0DE /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		3B9CBEF517E928DB0039E0DE /* Lw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lw.png; sourceTree = "<group>"; };
+		3BAB7C8717D691DA0049AE55 /* LearningWor Plataforma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LearningWor Plataforma.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BAB7C8A17D691DA0049AE55 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3BAB7C8C17D691DA0049AE55 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3BAB7C8E17D691DA0049AE55 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3BAB7C9217D691DA0049AE55 /* LearningWor Plataforma-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LearningWor Plataforma-Info.plist"; sourceTree = "<group>"; };
+		3BAB7C9417D691DA0049AE55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3BAB7C9617D691DA0049AE55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BAB7C9817D691DA0049AE55 /* LearningWor Plataforma-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LearningWor Plataforma-Prefix.pch"; sourceTree = "<group>"; };
+		3BAB7C9917D691DA0049AE55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3BAB7C9A17D691DA0049AE55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3BAB7C9C17D691DA0049AE55 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3BAB7C9E17D691DA0049AE55 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3BAB7CA017D691DA0049AE55 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3BAB7CA317D691DA0049AE55 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3BAB7CA517D691DA0049AE55 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3BAB7CA617D691DA0049AE55 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3BAB7CAD17D691DA0049AE55 /* LearningWor PlataformaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LearningWor PlataformaTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BAB7CAE17D691DA0049AE55 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3BAB7CB617D691DA0049AE55 /* LearningWor PlataformaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LearningWor PlataformaTests-Info.plist"; sourceTree = "<group>"; };
+		3BAB7CB817D691DA0049AE55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3BAB7CBA17D691DA0049AE55 /* LearningWor_PlataformaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LearningWor_PlataformaTests.h; sourceTree = "<group>"; };
+		3BAB7CBB17D691DA0049AE55 /* LearningWor_PlataformaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearningWor_PlataformaTests.m; sourceTree = "<group>"; };
+		3BB8E9DC17F7721500711E99 /* TareaDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TareaDetailViewController.h; sourceTree = "<group>"; };
+		3BB8E9DD17F7721500711E99 /* TareaDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TareaDetailViewController.m; sourceTree = "<group>"; };
+		3BB8E9DF17F7838900711E99 /* ClaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClaseViewController.h; sourceTree = "<group>"; };
+		3BB8E9E017F7838900711E99 /* ClaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClaseViewController.m; sourceTree = "<group>"; };
+		3BB8E9E217F795D400711E99 /* ClaseDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClaseDetailViewController.h; sourceTree = "<group>"; };
+		3BB8E9E317F795D500711E99 /* ClaseDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClaseDetailViewController.m; sourceTree = "<group>"; };
+		3BDC404417F6691400FFCFC6 /* TareaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TareaViewController.h; sourceTree = "<group>"; };
+		3BDC404517F6691400FFCFC6 /* TareaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TareaViewController.m; sourceTree = "<group>"; };
+		3BDC404717F676D800FFCFC6 /* SelecCursoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelecCursoViewController.h; sourceTree = "<group>"; };
+		3BDC404817F676D800FFCFC6 /* SelecCursoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelecCursoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BAB7C8417D691DA0049AE55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B9CBEF417E921340039E0DE /* libsqlite3.0.dylib in Frameworks */,
+				3BAB7C8B17D691DA0049AE55 /* UIKit.framework in Frameworks */,
+				3BAB7C8D17D691DA0049AE55 /* Foundation.framework in Frameworks */,
+				3BAB7C8F17D691DA0049AE55 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BAB7CA917D691DA0049AE55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BAB7CAF17D691DA0049AE55 /* SenTestingKit.framework in Frameworks */,
+				3BAB7CB017D691DA0049AE55 /* UIKit.framework in Frameworks */,
+				3BAB7CB117D691DA0049AE55 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B8F131917E94524008933FD /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				3B6A01F917F249EA00A970D6 /* NSObject+SBJson.h */,
+				3B6A01FA17F249EA00A970D6 /* NSObject+SBJson.m */,
+				3B6A01FB17F249EA00A970D6 /* SBJson.h */,
+				3B6A01FC17F249EA00A970D6 /* SBJsonParser.h */,
+				3B6A01FD17F249EA00A970D6 /* SBJsonParser.m */,
+				3B6A01FE17F249EA00A970D6 /* SBJsonStreamParser.h */,
+				3B6A01FF17F249EA00A970D6 /* SBJsonStreamParser.m */,
+				3B6A020017F249EA00A970D6 /* SBJsonStreamParserAccumulator.h */,
+				3B6A020117F249EA00A970D6 /* SBJsonStreamParserAccumulator.m */,
+				3B6A020217F249EA00A970D6 /* SBJsonStreamParserAdapter.h */,
+				3B6A020317F249EA00A970D6 /* SBJsonStreamParserAdapter.m */,
+				3B6A020417F249EA00A970D6 /* SBJsonStreamParserState.h */,
+				3B6A020517F249EA00A970D6 /* SBJsonStreamParserState.m */,
+				3B6A020617F249EA00A970D6 /* SBJsonStreamWriter.h */,
+				3B6A020717F249EA00A970D6 /* SBJsonStreamWriter.m */,
+				3B6A020817F249EA00A970D6 /* SBJsonStreamWriterAccumulator.h */,
+				3B6A020917F249EA00A970D6 /* SBJsonStreamWriterAccumulator.m */,
+				3B6A020A17F249EA00A970D6 /* SBJsonStreamWriterState.h */,
+				3B6A020B17F249EA00A970D6 /* SBJsonStreamWriterState.m */,
+				3B6A020C17F249EA00A970D6 /* SBJsonTokeniser.h */,
+				3B6A020D17F249EA00A970D6 /* SBJsonTokeniser.m */,
+				3B6A020E17F249EA00A970D6 /* SBJsonUTF8Stream.h */,
+				3B6A020F17F249EA00A970D6 /* SBJsonUTF8Stream.m */,
+				3B6A021017F249EA00A970D6 /* SBJsonWriter.h */,
+				3B6A021117F249EA00A970D6 /* SBJsonWriter.m */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		3BAB7C7E17D691DA0049AE55 = {
+			isa = PBXGroup;
+			children = (
+				3B72F61E17F527CE0022075E /* lwLogo7.png */,
+				3B9CBEF317E921340039E0DE /* libsqlite3.0.dylib */,
+				3BAB7C9017D691DA0049AE55 /* LearningWor Plataforma */,
+				3BAB7CB417D691DA0049AE55 /* LearningWor PlataformaTests */,
+				3BAB7C8917D691DA0049AE55 /* Frameworks */,
+				3BAB7C8817D691DA0049AE55 /* Products */,
+				3B9CBEF517E928DB0039E0DE /* Lw.png */,
+			);
+			sourceTree = "<group>";
+		};
+		3BAB7C8817D691DA0049AE55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BAB7C8717D691DA0049AE55 /* LearningWor Plataforma.app */,
+				3BAB7CAD17D691DA0049AE55 /* LearningWor PlataformaTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BAB7C8917D691DA0049AE55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BAB7C8A17D691DA0049AE55 /* UIKit.framework */,
+				3BAB7C8C17D691DA0049AE55 /* Foundation.framework */,
+				3BAB7C8E17D691DA0049AE55 /* CoreGraphics.framework */,
+				3BAB7CAE17D691DA0049AE55 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BAB7C9017D691DA0049AE55 /* LearningWor Plataforma */ = {
+			isa = PBXGroup;
+			children = (
+				3B8F131917E94524008933FD /* JSON */,
+				3BAB7C9917D691DA0049AE55 /* AppDelegate.h */,
+				3BAB7C9A17D691DA0049AE55 /* AppDelegate.m */,
+				3BAB7CA217D691DA0049AE55 /* MainStoryboard.storyboard */,
+				3BAB7CA517D691DA0049AE55 /* ViewController.h */,
+				3BAB7CA617D691DA0049AE55 /* ViewController.m */,
+				3B28412617F3C62500A838BF /* IndexViewController.h */,
+				3B28412717F3C62500A838BF /* IndexViewController.m */,
+				3B0C08D417F3D0220096EA56 /* MensajesViewController.h */,
+				3B0C08D517F3D0220096EA56 /* MensajesViewController.m */,
+				3B72F61A17F4ED330022075E /* DetailViewController.h */,
+				3B72F61B17F4ED330022075E /* DetailViewController.m */,
+				3BDC404717F676D800FFCFC6 /* SelecCursoViewController.h */,
+				3BDC404817F676D800FFCFC6 /* SelecCursoViewController.m */,
+				3BDC404417F6691400FFCFC6 /* TareaViewController.h */,
+				3BDC404517F6691400FFCFC6 /* TareaViewController.m */,
+				3BB8E9DC17F7721500711E99 /* TareaDetailViewController.h */,
+				3BB8E9DD17F7721500711E99 /* TareaDetailViewController.m */,
+				3BB8E9DF17F7838900711E99 /* ClaseViewController.h */,
+				3BB8E9E017F7838900711E99 /* ClaseViewController.m */,
+				3BB8E9E217F795D400711E99 /* ClaseDetailViewController.h */,
+				3BB8E9E317F795D500711E99 /* ClaseDetailViewController.m */,
+				3BAB7C9117D691DA0049AE55 /* Supporting Files */,
+			);
+			path = "LearningWor Plataforma";
+			sourceTree = "<group>";
+		};
+		3BAB7C9117D691DA0049AE55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B72F61D17F526860022075E /* lwLogo.png */,
+				3BAB7C9217D691DA0049AE55 /* LearningWor Plataforma-Info.plist */,
+				3BAB7C9317D691DA0049AE55 /* InfoPlist.strings */,
+				3BAB7C9617D691DA0049AE55 /* main.m */,
+				3BAB7C9817D691DA0049AE55 /* LearningWor Plataforma-Prefix.pch */,
+				3BAB7C9C17D691DA0049AE55 /* Default.png */,
+				3BAB7C9E17D691DA0049AE55 /* Default@2x.png */,
+				3BAB7CA017D691DA0049AE55 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BAB7CB417D691DA0049AE55 /* LearningWor PlataformaTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BAB7CBA17D691DA0049AE55 /* LearningWor_PlataformaTests.h */,
+				3BAB7CBB17D691DA0049AE55 /* LearningWor_PlataformaTests.m */,
+				3BAB7CB517D691DA0049AE55 /* Supporting Files */,
+			);
+			path = "LearningWor PlataformaTests";
+			sourceTree = "<group>";
+		};
+		3BAB7CB517D691DA0049AE55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BAB7CB617D691DA0049AE55 /* LearningWor PlataformaTests-Info.plist */,
+				3BAB7CB717D691DA0049AE55 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BAB7C8617D691DA0049AE55 /* LearningWor Plataforma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BAB7CBF17D691DA0049AE55 /* Build configuration list for PBXNativeTarget "LearningWor Plataforma" */;
+			buildPhases = (
+				3BAB7C8317D691DA0049AE55 /* Sources */,
+				3BAB7C8417D691DA0049AE55 /* Frameworks */,
+				3BAB7C8517D691DA0049AE55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LearningWor Plataforma";
+			productName = "LearningWor Plataforma";
+			productReference = 3BAB7C8717D691DA0049AE55 /* LearningWor Plataforma.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BAB7CAC17D691DA0049AE55 /* LearningWor PlataformaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BAB7CC217D691DA0049AE55 /* Build configuration list for PBXNativeTarget "LearningWor PlataformaTests" */;
+			buildPhases = (
+				3BAB7CA817D691DA0049AE55 /* Sources */,
+				3BAB7CA917D691DA0049AE55 /* Frameworks */,
+				3BAB7CAA17D691DA0049AE55 /* Resources */,
+				3BAB7CAB17D691DA0049AE55 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BAB7CB317D691DA0049AE55 /* PBXTargetDependency */,
+			);
+			name = "LearningWor PlataformaTests";
+			productName = "LearningWor PlataformaTests";
+			productReference = 3BAB7CAD17D691DA0049AE55 /* LearningWor PlataformaTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BAB7C7F17D691DA0049AE55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "David Ivan Perez Salazar";
+				TargetAttributes = {
+					3BAB7C8617D691DA0049AE55 = {
+						DevelopmentTeam = 3SFB5V2VP4;
+					};
+				};
+			};
+			buildConfigurationList = 3BAB7C8217D691DA0049AE55 /* Build configuration list for PBXProject "LearningWor Plataforma" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3BAB7C7E17D691DA0049AE55;
+			productRefGroup = 3BAB7C8817D691DA0049AE55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BAB7C8617D691DA0049AE55 /* LearningWor Plataforma */,
+				3BAB7CAC17D691DA0049AE55 /* LearningWor PlataformaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BAB7C8517D691DA0049AE55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BAB7C9517D691DA0049AE55 /* InfoPlist.strings in Resources */,
+				3BAB7C9D17D691DA0049AE55 /* Default.png in Resources */,
+				3BAB7C9F17D691DA0049AE55 /* Default@2x.png in Resources */,
+				3BAB7CA117D691DA0049AE55 /* Default-568h@2x.png in Resources */,
+				3BAB7CA417D691DA0049AE55 /* MainStoryboard.storyboard in Resources */,
+				3B9CBEF617E928DB0039E0DE /* Lw.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BAB7CAA17D691DA0049AE55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BAB7CB917D691DA0049AE55 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BAB7CAB17D691DA0049AE55 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BAB7C8317D691DA0049AE55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BAB7C9717D691DA0049AE55 /* main.m in Sources */,
+				3B6A021D17F249EA00A970D6 /* SBJsonWriter.m in Sources */,
+				3BAB7C9B17D691DA0049AE55 /* AppDelegate.m in Sources */,
+				3B6A021B17F249EA00A970D6 /* SBJsonTokeniser.m in Sources */,
+				3B6A021217F249EA00A970D6 /* NSObject+SBJson.m in Sources */,
+				3B6A021817F249EA00A970D6 /* SBJsonStreamWriter.m in Sources */,
+				3B6A021417F249EA00A970D6 /* SBJsonStreamParser.m in Sources */,
+				3B28412817F3C62500A838BF /* IndexViewController.m in Sources */,
+				3B6A021317F249EA00A970D6 /* SBJsonParser.m in Sources */,
+				3B0C08D617F3D0220096EA56 /* MensajesViewController.m in Sources */,
+				3B6A021517F249EA00A970D6 /* SBJsonStreamParserAccumulator.m in Sources */,
+				3B72F61C17F4ED330022075E /* DetailViewController.m in Sources */,
+				3BB8E9E417F795D500711E99 /* ClaseDetailViewController.m in Sources */,
+				3BDC404917F676D800FFCFC6 /* SelecCursoViewController.m in Sources */,
+				3B6A021717F249EA00A970D6 /* SBJsonStreamParserState.m in Sources */,
+				3BB8E9DE17F7721600711E99 /* TareaDetailViewController.m in Sources */,
+				3B6A021917F249EA00A970D6 /* SBJsonStreamWriterAccumulator.m in Sources */,
+				3B6A021A17F249EA00A970D6 /* SBJsonStreamWriterState.m in Sources */,
+				3BB8E9E117F7838900711E99 /* ClaseViewController.m in Sources */,
+				3B6A021C17F249EA00A970D6 /* SBJsonUTF8Stream.m in Sources */,
+				3BAB7CA717D691DA0049AE55 /* ViewController.m in Sources */,
+				3BDC404617F6691400FFCFC6 /* TareaViewController.m in Sources */,
+				3B6A021617F249EA00A970D6 /* SBJsonStreamParserAdapter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BAB7CA817D691DA0049AE55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BAB7CBC17D691DA0049AE55 /* LearningWor_PlataformaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BAB7CB317D691DA0049AE55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BAB7C8617D691DA0049AE55 /* LearningWor Plataforma */;
+			targetProxy = 3BAB7CB217D691DA0049AE55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BAB7C9317D691DA0049AE55 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BAB7C9417D691DA0049AE55 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3BAB7CA217D691DA0049AE55 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BAB7CA317D691DA0049AE55 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		3BAB7CB717D691DA0049AE55 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BAB7CB817D691DA0049AE55 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BAB7CBD17D691DA0049AE55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3BAB7CBE17D691DA0049AE55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BAB7CC017D691DA0049AE55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LearningWor Plataforma/LearningWor Plataforma-Prefix.pch";
+				INFOPLIST_FILE = "LearningWor Plataforma/LearningWor Plataforma-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3BAB7CC117D691DA0049AE55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LearningWor Plataforma/LearningWor Plataforma-Prefix.pch";
+				INFOPLIST_FILE = "LearningWor Plataforma/LearningWor Plataforma-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3BAB7CC317D691DA0049AE55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LearningWor Plataforma.app/LearningWor Plataforma";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LearningWor Plataforma/LearningWor Plataforma-Prefix.pch";
+				INFOPLIST_FILE = "LearningWor PlataformaTests/LearningWor PlataformaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3BAB7CC417D691DA0049AE55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LearningWor Plataforma.app/LearningWor Plataforma";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LearningWor Plataforma/LearningWor Plataforma-Prefix.pch";
+				INFOPLIST_FILE = "LearningWor PlataformaTests/LearningWor PlataformaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BAB7C8217D691DA0049AE55 /* Build configuration list for PBXProject "LearningWor Plataforma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BAB7CBD17D691DA0049AE55 /* Debug */,
+				3BAB7CBE17D691DA0049AE55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BAB7CBF17D691DA0049AE55 /* Build configuration list for PBXNativeTarget "LearningWor Plataforma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BAB7CC017D691DA0049AE55 /* Debug */,
+				3BAB7CC117D691DA0049AE55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BAB7CC217D691DA0049AE55 /* Build configuration list for PBXNativeTarget "LearningWor PlataformaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BAB7CC317D691DA0049AE55 /* Debug */,
+				3BAB7CC417D691DA0049AE55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BAB7C7F17D691DA0049AE55 /* Project object */;
+}
